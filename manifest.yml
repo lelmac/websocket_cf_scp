@@ -1,0 +1,8 @@
+---
+applications:
+- name: websocket_cf
+  command: node server.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  health-check-type: none
+  memory: 256M
+  random-route: true

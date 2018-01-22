@@ -1,0 +1,16 @@
+{
+  "name": "websocket_sapcp",
+  "version": "1.0.0",
+  "description": "Basic WebSocket example application for Cloud Foundry on SAP Cloudplatform",
+  "main": "client.js",
+  "dependencies": {
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node client.js"
+  },
+  "author": "Max Lenk",
+  "license": "ISC"
+}
