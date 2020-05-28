@@ -4,7 +4,7 @@
   "description": "Basic WebSocket example application for Cloud Foundry on SAP Cloudplatform",
   "main": "client.js",
   "dependencies": {
-    "ws": "^4.0.0"
+    "ws": "*"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,7 +12,6 @@
     "start": "node client.js"
   },
   "engines": {
-    "node": "^8.9.4",
-    "npm": "5.6.0"
+    "node": "12.x.x"
   }
 }

@@ -2,7 +2,9 @@
 applications:
 - name: websocket_cf
   command: node server.js
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  buildpacks: 
+  - https://github.com/cloudfoundry/nodejs-buildpack
   health-check-type: none
-  memory: 256M
+  memory: 128M
+  disk_quota: 128M
   random-route: true
